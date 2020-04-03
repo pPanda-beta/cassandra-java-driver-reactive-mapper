@@ -1,0 +1,4 @@
+rootProject.name = 'cassandra-java-driver-reactive-mapper'
+
+include ':cassandra-java-driver-reactive-mapper-reactor-core'
+
