@@ -5,14 +5,15 @@ While `com.datastax.oss:java-driver-mapper-processor` already gives you the flex
 this enables you to play with reactive constructs.
 E.g. `Mono<T>`, `Flux<T>`...
 
-###How to Install ?
 
-#####Gradle
+### How to Install ?
+
+##### Gradle
 ```groovy
 repositories {
 	mavenCentral()
 	jcenter()
-    maven { //Soon we will be on jCenter
+	maven { //Soon we will be on jCenter
         url  "https://dl.bintray.com/ppanda-beta/maven"
     }
 }
@@ -28,7 +29,7 @@ dependencies {
 }
 ```
 
-###Usage
+### Usage
 
 ```java
 
